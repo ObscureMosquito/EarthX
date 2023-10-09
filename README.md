@@ -1,2 +1,2 @@
 # EarthX
-Fix Google Earth's iOS 6 app connectivity issues that impeded it from launching.
+This tweaks fixes the connectivity issue for the Google Earth app on older ios versions (currently only tested on iOS 6, although it probably works perfectly from iOS 7 to iOS 4), the issue is caused by an outdated user agent string, causing Google's bot mechanisms to fire, and forbid the user from requesting the necessary content, which this tweaks resolves by hooking NSURLConnection, and changing the user agent string to a more modern one (Edge, Windows 11).
