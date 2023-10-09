@@ -1,0 +1,9 @@
+Package: com.obscure.earthx
+Name: EarthX
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Enjoy Google Earth again with this small tweak!, just install it, and Google Earth will  work again. (Only tested on iOS 6)
+Maintainer: Requis (ObscureMosquito)
+Author: Requis (ObscureMosquito)
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
